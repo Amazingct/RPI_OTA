@@ -1,0 +1,7 @@
+{
+  "project_name": "RPI_OTA",
+  "project_dir": "/home/amazing/Desktop/project",
+  "autostart": ["main.py", "others.py"],
+  "version": 1.0
+
+}
