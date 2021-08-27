@@ -3,9 +3,9 @@ import os
 import time
 
 wait = 0
-os.chdir("/home/pi/RPI_OTA")
+os.chdir("/home/pi/RPI_OTA/")
 
-with open("config.json", "r") as config:
+with open("/home/pi/RPI_OTA/config.json", "r") as config:
     config = json.load(config)
     os.chdir(config["ota_dir"])
     # wait
