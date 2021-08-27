@@ -1,0 +1,11 @@
+[Unit]
+Description=Main Doorbell
+After=multi-user.target
+
+[Service]
+Type=Application
+ExecStart=*exec* *project_program*
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target

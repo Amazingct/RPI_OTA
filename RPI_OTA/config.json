@@ -1,7 +1,10 @@
 {
-  "project_name": "RPI_OTA",
-  "project_dir": "/home/amazing/Desktop/project",
-  "autostart": ["main.py", "others.py"],
-  "version": 1.0
+  "project_name": "RPI_car_tracker",
+  "project_dir": "/home/pi/",
+  "autostart": ["rpi_main.py"],
+  "version": 1.0,
+  "exec": "/usr/bin/python3",
+  "link": "https://github.com/Amazingct/RPI_car_tracker",
+  "ota_dir": "/home/pi/RPI_OTA/"
 
 }
